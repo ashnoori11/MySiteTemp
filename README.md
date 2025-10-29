@@ -1,7 +1,7 @@
 
-  # Luxurious Website Design for SkMed360
+  # Modern Website Design for SoftKey
 
-  This is a code bundle for Luxurious Website Design for SkMed360. The original project is available at https://www.figma.com/design/XpGgBhH5Z7wsQSdDmDMlv3/Luxurious-Website-Design-for-SkMed360.
+  This is a code bundle for Modern Website Design for SoftKey. The original project is available at https://www.figma.com/design/2zUzC5zewueMnXrZkhSZbZ/Modern-Website-Design-for-SoftKey.
 
   ## Running the code
 
