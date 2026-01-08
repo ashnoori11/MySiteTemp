@@ -3,12 +3,14 @@ import { Menu, X, Globe } from 'lucide-react';
 import { Button } from './ui/button';
 import { useLanguage } from '../context/LanguageContext';
 import { languages } from '../types/language';
+import logo from '../assets/images/logo.png'
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from './ui/dropdown-menu';
+
 
 interface NavigationProps {
   currentPage: string;
@@ -25,19 +27,19 @@ export const Navigation: React.FC<NavigationProps> = ({ currentPage, onNavigate 
     { id: 'products', label: t('nav.products') },
     { id: 'contact', label: t('nav.contact') },
   ];
-
+ 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div 
-            className="flex items-center cursor-pointer"
+            className="flex items-center cursor-pointer "
             onClick={() => onNavigate('home')}
+            style={{width: '120px'}}
           >
-            <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg">
-              <span className="text-xl">SoftKey</span>
-            </div>
+              <img src={logo} alt="logo" />
+           
           </div>
 
           {/* Desktop Navigation */}
@@ -58,11 +60,11 @@ export const Navigation: React.FC<NavigationProps> = ({ currentPage, onNavigate 
             <Button
               onClick={() => onNavigate('demo')}
               variant="default"
-              className="bg-blue-600 hover:bg-blue-700"
+              
             >
               {t('nav.demo')}
             </Button>
-            
+
             {/* Language Selector */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>

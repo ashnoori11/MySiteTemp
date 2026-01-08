@@ -110,7 +110,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
               </div>
               <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-xl p-6 max-w-xs">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center text-white text-xl">
+                  <div className="w-12 h-12 bg-accent-orange rounded-full flex items-center justify-center text-white text-xl">
                     ✓
                   </div>
                   <div>
@@ -185,7 +185,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
                   key={feature.key}
                   className="bg-white rounded-xl p-6 text-center hover:shadow-lg transition-shadow"
                 >
-                  <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-accent-orange rounded-full flex items-center justify-center mx-auto mb-4">
                     <Icon className="w-8 h-8 text-white" />
                   </div>
                   <h3 className="text-xl text-gray-900 mb-2">
@@ -202,7 +202,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+      <section className="py-20 radial-gradient-background text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl mb-6">
             Ready to Transform Your Healthcare Operations?
@@ -223,7 +223,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
               onClick={() => onNavigate('contact')}
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white/10"
+              className="border-white text-blue-600 hover:bg-gray-100"
             >
               {t('nav.contact')}
             </Button>
