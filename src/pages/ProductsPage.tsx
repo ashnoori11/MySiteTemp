@@ -160,7 +160,11 @@ export const ProductsPage: React.FC<ProductsPageProps> = ({ onNavigate }) => {
       </section>
 
       {/* Integration Section */}
+<<<<<<< HEAD
       <section className="py-20 radial-gradient-background text-white">
+=======
+      <section className="py-20 bg-gradient-to-br from-blue-600 to-purple-600 text-white">
+>>>>>>> origin/main
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl mb-6">
             National Card Payment Integration
@@ -181,7 +185,11 @@ export const ProductsPage: React.FC<ProductsPageProps> = ({ onNavigate }) => {
               onClick={() => onNavigate('contact')}
               size="lg"
               variant="outline"
+<<<<<<< HEAD
               className="border-white  text-blue-600  hover:bg-gray-100"
+=======
+              className="border-white text-white hover:bg-white/10"
+>>>>>>> origin/main
             >
               {t('nav.contact')}
             </Button>
