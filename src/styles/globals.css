@@ -1,5 +1,12 @@
 @custom-variant dark (&:is(.dark *));
 
+<<<<<<< HEAD
+
+
+
+
+=======
+>>>>>>> origin/main
 :root {
   --font-size: 16px;
   --background: #ffffff;
@@ -8,7 +15,11 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
+<<<<<<< HEAD
+  --primary: #030285;
+=======
   --primary: #030213;
+>>>>>>> origin/main
   --primary-foreground: oklch(1 0 0);
   --secondary: oklch(0.95 0.0058 264.53);
   --secondary-foreground: #030213;
@@ -48,7 +59,11 @@
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.145 0 0);
   --popover-foreground: oklch(0.985 0 0);
+<<<<<<< HEAD
+  --primary: #030285;
+=======
   --primary: oklch(0.985 0 0);
+>>>>>>> origin/main
   --primary-foreground: oklch(0.205 0 0);
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);

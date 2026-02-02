@@ -245,7 +245,11 @@ export const DemoPage: React.FC = () => {
             <Card className="border-2 border-purple-100">
               <CardContent className="p-6 text-center">
                 <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+<<<<<<< HEAD
+                  <Clock className="w-6 h-6 text-accent-orange" />
+=======
                   <Clock className="w-6 h-6 text-purple-600" />
+>>>>>>> origin/main
                 </div>
                 <h3 className="text-lg text-gray-900 mb-2">45-60 Minutes</h3>
                 <p className="text-gray-600">
