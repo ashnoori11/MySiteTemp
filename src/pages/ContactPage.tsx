@@ -153,11 +153,7 @@ export const ContactPage: React.FC = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0">
-<<<<<<< HEAD
                       <MapPin className="w-6 h-6 text-accent-orange" />
-=======
-                      <MapPin className="w-6 h-6 text-purple-600" />
->>>>>>> origin/main
                     </div>
                     <div>
                       <h3 className="text-xl text-gray-900 mb-2">{t('contact.baghdad')}</h3>
@@ -169,11 +165,7 @@ export const ContactPage: React.FC = () => {
                 </CardContent>
               </Card>
 
-<<<<<<< HEAD
               <Card className="radial-gradient-background text-white">
-=======
-              <Card className="bg-gradient-to-br from-blue-600 to-purple-600 text-white">
->>>>>>> origin/main
                 <CardContent className="p-6">
                   <h3 className="text-2xl mb-4">Business Hours</h3>
                   <div className="space-y-2">

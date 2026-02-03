@@ -44,10 +44,7 @@ const Button = React.forwardRef<
   const Comp = asChild ? Slot : "button";
 
   return (
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/main
     <Comp
       data-slot="button"
       className={cn(buttonVariants({ variant, size, className }))}

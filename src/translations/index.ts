@@ -17,8 +17,8 @@ export const translations = {
     products: {
       title: 'Our Solutions',
       subtitle: 'Comprehensive software solutions designed for modern healthcare facilities',
-      hic: {
-        title: 'H.I.C - Hospital Information System',
+      his: {
+        title: 'H.I.S - Hospital Information System',
         description: 'Complete hospital management solution with integrated clinical workflows, patient records, and administrative tools',
       },
       clinical: {
@@ -140,7 +140,7 @@ export const translations = {
     products: {
       title: 'حلولنا',
       subtitle: 'حلول برمجية شاملة مصممة للمرافق الصحية الحديثة',
-      hic: {
+      his: {
         title: 'نظام المعلومات الصحية',
         description: 'حل شامل لإدارة المستشفيات مع سير عمل سريري متكامل وسجلات المرضى وأدوات إدارية',
       },
@@ -263,7 +263,7 @@ export const translations = {
     products: {
       title: 'چارەسەرەکانمان',
       subtitle: 'چارەسەرە نەرماوەیی گشتگیر کە بۆ سەنتەرە تەندروستیە مۆدێرنەکان دیزاین کراوە',
-      hic: {
+      his: {
         title: 'سیستمی زانیاری نەخۆشخانە',
         description: 'چارەسەری گشتگیری بەڕێوەبردنی نەخۆشخانە لەگەڵ کارگێڕی کلینیکی یەکگرتوو و تۆمارەکانی نەخۆش و ئامرازە کارگێڕیەکان',
       },
@@ -386,7 +386,7 @@ export const translations = {
     products: {
       title: 'Çareserên Me',
       subtitle: 'Çareserên nermalavê yên giştgir ên ji bo navendên tenduristiyê yên modern hatine dîzaynkirin',
-      hic: {
+      his: {
         title: 'Sîstema Agahdariya Nexweşxaneyê',
         description: 'Çaresera giştgir a rêvebirina nexweşxaneyê bi kargeran klînîkî yên yekgirtî, tomarên nexweşan û amûrên rêveberî',
       },

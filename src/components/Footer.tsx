@@ -1,10 +1,7 @@
 import React from 'react';
 import { MapPin, Mail, Phone } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
-<<<<<<< HEAD
 import logo from '../assets/images/logo.png'
-=======
->>>>>>> origin/main
 
 export const Footer: React.FC = () => {
   const { t } = useLanguage();
@@ -15,13 +12,8 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-<<<<<<< HEAD
             <div className="bg-white text-blue-600 px-4  rounded-lg inline-block mb-4" style={{width: '120px'}}>
               <img src={logo} alt="logo" className= "w-full"/>
-=======
-            <div className="bg-white text-blue-600 px-4 py-2 rounded-lg inline-block mb-4">
-              <span className="text-xl">SoftKey</span>
->>>>>>> origin/main
             </div>
             <p className="text-gray-300 mb-4">
               {t('footer.description')}
@@ -33,7 +25,7 @@ export const Footer: React.FC = () => {
             <h3 className="mb-4">{t('footer.products')}</h3>
             <ul className="space-y-2 text-gray-300">
               <li className="hover:text-white transition-colors cursor-pointer">
-                {t('products.hic.title')}
+                {t('products.his.title')}
               </li>
               <li className="hover:text-white transition-colors cursor-pointer">
                 {t('products.clinical.title')}
